@@ -1,0 +1,23 @@
+#app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    position: absolute;
+    height: 20vh;
+    width: 150px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+}
+
+p{
+    font-weight: bold;
+}
